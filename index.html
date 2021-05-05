@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="/images/img1.png"/>
+</head>
+<body>
+    <nav class="navigation container">
+        <button class="float" onclick="dark()"><object type="image/svg+xml" data="./image.svg">
+            <img  src="/images/darkb.svg" />
+          </object></button>
+        <script>
+            function dark(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <div class="nav-brand"></div><a class="link" href="/index.html" style="animation-fill-mode: both;">Aman Raj</a>
+        <ul class="list-nonbullet nav-pills" >
+            <li class="list-inline">
+                <a class="link link-active" href="/index.html">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+
+    </nav>
+    <header class="hero">
+        
+
+        <img class="hero-img" src="images\img1.png">
+        <h1 class="hero-heading"> Welcome to<span style="color: var(--primary-color)"> Page</span></h1>
+
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS, Javascript, NodeJS, ReactJS, Python, Git, Web hosting</p>
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>With the use of above technologies, I have created some projects.</p>
+            <a class="link primary-link" href="/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am working on some technical blogs. I love to document my learnig journey.</p>
+            <a class="link secondary-link" href="/blogs.html">Browse Blogs</a>
+
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-heading">Social Medial Links</div>
+        <ul class="social-links list-nonbullet">
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://www.linkedin.com/in/am4nraj/"><img src="images\lin.png"></a></li>
+
+
+            
+            <li class="list-inline list-nonbullet"><a class="link" href="https://github.com/am4n-raj"><img src="images\github.png"></a></li>
+
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://twitter.com/am4nraj"><img src="images\tweet.png"></a></li>
+
+        </ul>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>

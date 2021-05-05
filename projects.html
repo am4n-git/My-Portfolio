@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="/styles.css" rel='stylesheet' />
+</head>
+
+<body>
+
+    <nav class="navigation container">
+        <button class="float" onclick="dark()"><object type="image/svg+xml" data="./image.svg">
+            <img  src="/images/darkb.svg" />
+          </object></button>
+        <script>
+            function dark(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <div class="nav-brand"></div><a class="link" href="/index.html">Aman Raj</a>
+        <ul class="list-nonbullet nav-pills">
+            <li class="list-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link link-active" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">My Projects</span></h1>
+
+    </header>
+
+
+
+    <ul class="list-nonbullet">
+        <div class="container container-center">
+
+            <li >
+                <h1>Discord Bot</h1>
+                <small>Jan,2021</small>
+                <p>A discord bot built with <strong>Python</strong> which send encouraging quotes when poked. Still under development.</p>
+    
+                <a class="link primary-link" href="https://discord.gg/54ay6AsQ">Live Project</a>
+    
+                <a class ="link secondary-link" href="https://github.com/am4n-raj/discordbot">Source Code</a>
+            </li>
+
+
+            <li >
+                <h1>Know everything about JS?</h1>
+                <small>Jan,2021</small>
+                <p>Simple objective questions about <strong>Javascript</strong>. A CLI app made with<strong> nodeJS</strong> on replit.com</p>
+    
+                <a class="link primary-link" href="https://replit.com/@am4nraj/JsMCQ?embed=1&output=1#index.js">Live Project</a>
+    
+                <a class ="link secondary-link" href="https://github.com/am4n-raj/JSmcq">Source Code</a>
+
+            </li>
+
+
+            <li >
+                <h1>Amazon Prices Tracker</h1>
+                <small>Feb,2021</small>
+                <p>Program to keep track of any amazon product, if product price fall below your desired price an automated email will be sent.Built with<strong>Python</strong>. A CLI app made with<strong> nodeJS</strong> on replit.com</p>
+    
+                <a class="link primary-link" href="/images/amz.png">Screenshot</a>
+    
+                <a class ="link secondary-link" href="https://github.com/am4n-raj/amazon-prices">Source Code</a>
+
+            </li>
+
+            <li >
+                <h1>Notes with Flask</h1>
+                <small>March,2021</small>
+                <p>A simple and sweet website made up using flask for learning purpose. One can signup, login, logout and save their notes, if they want to. Using sqlalchemy it let you save the user information in the database including notes, so that user don't have to signup again and again. Built up with <strong>1.Python 2. Flask 3. Sql 4. HTML 5. CSS/ Bootstrap</strong> (Not fully functional). </p>
+    
+                <a class="link primary-link" href="" onclick="notav()">Screenshot</a>
+                <script>function notav(){
+                    alert("Not Available Right Now !!");
+                }
+                </script>
+    
+                <a class ="link secondary-link" href="https://github.com/am4n-raj/flaskweb">Source Code</a>
+
+            </li>
+        </div>
+
+    </ul>
+
+
+    <footer class="footer container">
+        <div class="footer-heading">Social Medial Links</div>
+        <ul class="social-links list-nonbullet">
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://www.linkedin.com/in/am4nraj/"><img src="images\lin.png"></a></li>
+
+
+            
+            <li class="list-inline list-nonbullet"><a class="link" href="https://github.com/am4n-raj"><img src="images\github.png"></a></li>
+
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://twitter.com/am4nraj"><img src="images\tweet.png"></a></li>
+
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
