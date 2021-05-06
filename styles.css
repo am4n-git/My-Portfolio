@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root{
-    --primary-color: #6a31d3;
+    --primary-color: #6D28D9;
     --off-white: #E5E7EB;
 }
 
@@ -254,12 +254,28 @@ body{
 
 }
 
-.footer .link{
-    color: white;
-    padding-inline-start: 0px;
-    text-align:center;
-    font-size: medium;
+
+.footer .footer-img{
+    
+    width: 30px;
+    height: 30px;
+    display:ruby-text-container;
+    margin: auto;
+    background-color: white;
+    border-radius: 3em;
 }
+
+.footer .footer-img:hover{
+    
+    width: 30px;
+    height: 30px;
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    border-radius: 2em;
+    
+}
+
 
 
 .footer .footer-heading{
@@ -293,6 +309,8 @@ body{
 
     
 }
+
+
 
 
 
