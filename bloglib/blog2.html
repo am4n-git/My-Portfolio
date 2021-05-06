@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started with CSS</title>
+    <link href="/styles.css" rel='stylesheet'/>
+</head>
+<body>
+    <nav class="navigation container">
+        <button class="float" onclick="dark()"><object type="image/svg+xml" data="./image.svg">
+            <img  src="/images/darkb.svg" />
+          </object></button>
+        <script>
+            function dark(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <div class="nav-brand"></div><a class="link" href="/index.html">Aman Raj</a>
+        <ul class="list-nonbullet nav-pills" >
+            <li class="list-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <ul class="list-nonbullet">
+        <header class="hero">
+
+            <img class="blog-img"  src="https://www.flaticon.com/premium-icon/icons/svg/186/186319.svg">
+            <h1 class="hero-heading"> Cascading Style Sheets</h1>
+        </header>
+
+        <div class="container container-center">
+            <li>
+                <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version.</p>
+
+                <h2>Key Resources</h2>
+                <h3><strong>CSS Introduction</strong></h3>
+
+                    <p>If you're new to web development, be sure to read our <a  href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a> article to learn what CSS is and how to use it.
+                    CSS Tutorials
+                    Our CSS learning area contains a wealth of tutorials to take you from beginner level to proficiency, covering all the fundamentals.
+                    CSS Reference
+                    Our exhaustive CSS reference for seasoned Web developers describes every property and concept of CSS.</p>
+
+                <h2>Tutorials</h2>
+                <h3>CSS first step:</h3>
+                <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
+
+                <h2>CSS Building Blocks</h2>
+                
+                <p>This module carries on where CSS first steps left off — now you've gained familiarity with the language and its syntax, and got some basic experience with using it, it's time to dive a bit deeper. This module looks at the cascade and inheritance, all the selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more.
+
+                    The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more specific disciplines like text styling and CSS layout.</p>
+                <h2>Reference Link</h2>
+                <p><a class="blog-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><strong>Mozilla Developer Org</strong></a></p>
+
+            </li>
+
+        </div>
+    </ul>
+
+
+    
+
+
+
+    <footer class="footer container">
+        <div class="footer-heading">Social Media Links</div>
+        <ul class="social-links list-nonbullet">
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://www.linkedin.com/in/am4nraj/"><img src="\images\lin.png"></a></li>
+
+
+            
+            <li class="list-inline list-nonbullet"><a class="link" href="https://github.com/am4n-raj"><img src="\images\github.png"></a></li>
+
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://twitter.com/am4nraj"><img src="\images\tweet.png"></a></li>
+
+        </ul>
+    </footer>
+</body>
+</html>

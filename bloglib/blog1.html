@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started with CSS</title>
+    <link href="/styles.css" rel='stylesheet'/>
+</head>
+<body>
+    <nav class="navigation container">
+        <button class="float" onclick="dark()"><object type="image/svg+xml" data="./image.svg">
+            <img  src="/images/darkb.svg" />
+          </object></button>
+        <script>
+            function dark(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <div class="nav-brand"></div><a class="link" href="/index.html">Aman Raj</a>
+        <ul class="list-nonbullet nav-pills" >
+            <li class="list-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <ul class="list-nonbullet">
+        <div class="container container-center">
+            <li>
+                <h2 class="container container-center"> Complete guide on getting started with CSS</h2>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A Complete Guide to Getting Started with CSS<br><br>Thread 🧵 👇🏻 <a href="https://t.co/I2T2HjtL4e">pic.twitter.com/I2T2HjtL4e</a></p>&mdash; Pratham (@Prathkum) <a href="https://twitter.com/Prathkum/status/1377871173875335170?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p><a class="link" href="https://twitter.com/Prathkum">
+            </li>
+            <br>
+
+            <li>
+                <h2 class="container container-center">Learn Javascript</h2>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you learning JavaScript?<br><br>These 12 amazing resources will boost your skills<br><br>🧵👇🏻</p>&mdash; Pratham (@Prathkum) <a href="https://twitter.com/Prathkum/status/1389502813605023752?ref_src=twsrc%5Etfw"></a>May 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+                
+            <br>
+            <br>
+            
+
+
+
+        </div>
+
+    </ul>
+
+
+    
+
+    <footer class="footer container">
+        <div class="footer-heading">Social Media Links</div>
+        <ul class="social-links list-nonbullet">
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://www.linkedin.com/in/am4nraj/"><img src="\images\lin.png"></a></li>
+
+
+            
+            <li class="list-inline list-nonbullet"><a class="link" href="https://github.com/am4n-raj"><img src="\images\github.png"></a></li>
+
+
+
+            <li class="list-inline list-nonbullet"><a class="link" href="https://twitter.com/am4nraj"><img src="\images\tweet.png"></a></li>
+
+        </ul>
+    </footer>
+</body>
+</html>
