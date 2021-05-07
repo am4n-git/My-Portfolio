@@ -270,9 +270,11 @@ body{
     width: 30px;
     height: 30px;
     animation-name: animate;
-    animation-duration: 1.5s;
+    animation-duration: .5s;
     animation-timing-function: ease-in-out;
     border-radius: 2em;
+    animation-iteration-count: infinite;
+	
     
 }
 
