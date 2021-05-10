@@ -271,11 +271,7 @@ body{
     width: 30px;
     height: 30px;
     animation-name: animate;
-<<<<<<< Updated upstream
     animation-duration: .5s;
-=======
-    animation-duration: 1s;
->>>>>>> Stashed changes
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     border-radius: 2em;
