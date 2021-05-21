@@ -12,29 +12,23 @@ hr{
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
-
-    
 }
 
 /* Container level CSS */
 
 .container {
     padding: 0rem 1rem;
-    
-
 
 }
-
 
 .container-center{
     max-width: 500px ;
     margin: auto;
 }
 
-
 .link{
     text-decoration: none;
-    padding: 0.1rem 0.5rem;
+    padding: 0.1rem 0.8rem;
     color: black;
 
 }
@@ -43,6 +37,7 @@ body{
     text-decoration: none;
     padding: 0rem 0rem;
     color: black;
+    
 }
 
 .dark-mode .blog-link{
@@ -62,10 +57,9 @@ body{
     background-color:var(--primary-color);
     border-radius: 0.9rem;
     color: white;
+    margin-right: 0.8rem;
   
 }
-
-
 .primary-link:hover{
     border-radius: 0.9rem;
     font-size: 1.3rem;  
@@ -81,26 +75,22 @@ body{
     color:var(--primary-color);
 }
 /* BEM methods */
-
 .secondary-link{
     color: black;
     border-radius: 0.9rem;
-    border: 2px solid var(--primary-color);
-    
+    border: 2px solid var(--primary-color);   
 }
-
-
 .secondary-link:hover{
-    color: var(--primary-color);
-    border-radius: 0.7rem;
+    color: white;
+    border-radius: 0.9rem;
     font-size: 1.3rem;  
     overflow: auto; 
     line-height: 0;
     font-weight: bold ;
     transition-duration: 300ms;
-    background: linear-gradient(to right,var(--primary-color) 50%,white 50%);
+    background: linear-gradient(to left,var(--primary-color) 50%,white 50%);
     background-size: 200% 100%;
-    background-position: right bottom;
+    background-position: bottom right;
     transition: all .3s ease-in-out;
     
 }
@@ -109,7 +99,7 @@ body{
 }
 .ow .secondary-link:hover {
     color: var(--primary-color);
-    border-radius: 0.7rem;
+    border-radius: 0.9rem;
     font-size: 1.3rem;  
     overflow: auto; 
     line-height: 0;
@@ -144,8 +134,6 @@ body{
     border-bottom-left-radius
     : 1.5rem;
 
-
-
 }
 
 .navigation .nav-pills{
@@ -153,46 +141,29 @@ body{
 
 }
 
-.navigation .link{
-    
+.navigation .link{  
     color:white;
-
-
-
 }
-
-
-.navigation .link-active{
-    font-weight: bolder;
-    border-radius: 2rem;
-    animation-name: animate;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
- 
-  
-}
-
 
 .navigation .link:hover{
-    border: 1px solid rgb(255, 255, 255);
     transition: ease-in-out;
-    transition-duration: 500ms;
+    transition-duration: 200ms;
     border-radius: 2rem;
     font-size: 1.2rem;  
-    overflow: auto; 
     line-height: 0;
     font-weight: bold ;
+    background-color: var(--primary-color);
+}
 
-    
+.link-active{  
+    border-bottom: 3px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
 
 @keyframes animate {
     50%   {background-color: #8159CB;
     filter:blur(1px);}
 }
-
-
 
 
 /* HEADER */
@@ -244,8 +215,6 @@ body{
 }
 
 
-
-
 /* Footer */
 .footer{
     background-color: #161b22;
@@ -273,13 +242,10 @@ body{
     animation-name: animate;
     animation-duration: .5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
     border-radius: 2em;
-    animation-iteration-count: infinite;
-	
-    
-}
 
+	  
+}
 
 
 .footer .footer-heading{
@@ -294,7 +260,6 @@ body{
 }
 
 
-
 .dark-mode{
     
     background-color: #1F2937;
@@ -305,28 +270,22 @@ body{
 .float{
     position: absolute;
 	width:2em;
-	height:2em;
+	height:2.2em;
 	top:4em;
 	left:2em;
 	border-radius:3rem;
-    background: linear-gradient(to top left, white,60%, black);
+    background: white;
 
-    
 }
-
-
-
-
 
 .float:hover{
     transition: ease-in-out;
-    transition-duration: 300ms;
-    border-radius: 3rem;
+    transition-duration: 100ms;
+    border-radius: 2rem;
     width:3em;
 	height:3em;
     overflow: auto; 
-    line-height: 0;
-    background: linear-gradient(to bottom right, white,40%, black);
+
 
 
 
